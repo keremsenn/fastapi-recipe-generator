@@ -1,0 +1,10 @@
+# Temel Bağımlılıklar
+fastapi==0.111.0
+uvicorn==0.29.0
+
+# AI/API Entegrasyonları
+requests==2.32.3  # OpenRouter API çağrıları için
+python-dotenv==1.0.1  # Çevresel değişkenler için
+
+# Veri Modelleri
+pydantic==2.7.2 
