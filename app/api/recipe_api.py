@@ -3,7 +3,7 @@ from app.model.recipe_model import RecipeResponse
 from fastapi import APIRouter
 
 router = APIRouter()
-@router.get("/")
+@router.get("/" ,methods=["GET", "HEAD"])
 async def root():
     return {"message": "Hello World"}
 
